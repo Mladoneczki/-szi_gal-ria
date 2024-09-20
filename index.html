@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=8, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=8, initial-scale=1.0" />
     <title>Autumn</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css" />
     <script type="module" src="index.js"></script>
-</head>
-<body>
-    <div id="galeria">
-        <h2>Galéria</h2>
-        <img id="fokep" src="" alt="fokep" />
-        <div class="gombok">
-            <button>
-                <img id="balra" src="képek/arrow-right.png" alt="elozo" />
-              </button>
-              <button>
-                <img id="jobbra" src="képek/arrow-right.png" alt="kovetkezo" />
-              </button>
-        </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="galeria">
+      <h2>Galéria</h2>
+      <div class="fokep"></div>
+      <div class="gombok">
+        <button>
+          <img id="balra" src="képek/arrow-right.png" alt="elozo" />
+        </button>
+        <button>
+          <img id="jobbra" src="képek/arrow-right.png" alt="kovetkezo" />
+        </button>
       </div>
-      <div id="kiskepek">
-        
-      </div>
+      <div class="kiskepek row row-lg-3 row-md-4 row-6"></div>
+    </div>
     
-</body>
+  </body>
 </html>
